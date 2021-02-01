@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Magepow_CreateMenuAdmin::menu" title="Menu Admin" module="Magepow_CreateMenuAdmin" sortOrder="41" resource="Magepow_CreateMenuAdmin::menu"/>
+        <add id="Magepow_CreateMenuAdmin::display" title="Display" module="Magepow_CreateMenuAdmin" sortOrder="10" resource="Magepow_CreateMenuAdmin::menu" action="menu/menu/add" parent="Magepow_CreateMenuAdmin::menu"/>
+        <add id="Magepow_CreateMenuAdmin::edit" title="Edit" module="Magepow_CreateMenuAdmin" sortOrder="11" resource="Magepow_CreateMenuAdmin::menu" action="menu/menu/edit" parent="Magepow_CreateMenuAdmin::menu"/>
+    </menu>
+</config>
