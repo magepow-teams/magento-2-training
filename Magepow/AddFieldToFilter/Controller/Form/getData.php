@@ -8,7 +8,7 @@ class getData extends \Magento\Framework\App\Action\Action
  
     public function __construct(
         \Magento\Framework\App\Action\Context $context,
-        \Magepow\CreateFormAdmin\Model\FormFactory $formFactory
+        \Magepow\AddFieldToFilter\Model\FormFactory $formFactory
     )
     {
         $this->formFactory = $formFactory;
